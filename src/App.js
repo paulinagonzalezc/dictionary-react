@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <header>Hello</header>
       <img src={sky} className="sky" alt="sky" />
+      <button href="#" className="btn btn-primary shadow">
+        Hello again
+      </button>
     </div>
   );
 }
