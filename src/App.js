@@ -1,14 +1,16 @@
 import "./App.css";
-import sky from "./purple-sky.png";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header>Hello</header>
-      <img src={sky} className="sky" alt="sky" />
-      <button href="#" className="btn btn-primary shadow">
-        Hello again
-      </button>
+      <div className="container">
+        <header>Hello</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer>Coded by Paulina</footer>
+      </div>
     </div>
   );
 }
