@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="col-4">• Dictionary •</header>
 
-      <div className="container">
+      <div className="container dictionary">
         <Dictionary defaultKeyword="sunny" />
         <footer>Coded by Paulina</footer>
       </div>
