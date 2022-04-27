@@ -7,6 +7,9 @@
 }
 
 .App .dictionary {
-  border: 1px solid gray;
+  max-width: 870px;
+  margin: 0 auto;
+  border: 1px solid whitesmoke;
   padding: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
