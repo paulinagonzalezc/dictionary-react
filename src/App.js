@@ -8,8 +8,8 @@ function App() {
 
       <div className="container dictionary">
         <Dictionary defaultKeyword="sunny" />
-        <footer>Coded by Paulina</footer>
       </div>
+      <footer>Coded by Paulina</footer>
     </div>
   );
 }
