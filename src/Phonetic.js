@@ -1,10 +1,9 @@
+import "./Phonetic.css";
+
 export default function Phonetic(props) {
   return (
-    <div className="Phonetic row justify-content-between">
-      <div className="col-2">{props.phonetic.text}</div>
-      <a href={props.phonetic.audio} className="col-4">
-        Listen
-      </a>
+    <div className="Phonetic">
+      <div>{props.phonetic.text}</div>
     </div>
   );
 }

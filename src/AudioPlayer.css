@@ -1,0 +1,17 @@
+.AudioPlayer {
+  display: flex;
+
+  align-items: left;
+}
+
+.playPause {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  max-height: 50%;
+  width: 28%;
+  font-size: 11px;
+  border-radius: 50%;
+  border: 0px;
+}

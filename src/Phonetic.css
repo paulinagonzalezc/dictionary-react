@@ -1,0 +1,6 @@
+.Phonetic {
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
