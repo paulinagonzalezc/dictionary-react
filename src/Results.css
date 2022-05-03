@@ -1,8 +1,8 @@
 .Results h1 {
   font-size: 60px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .Results .horizontal {
-  border-bottom: 1px solid black;
+  border-bottom: 0.01em solid black;
 }

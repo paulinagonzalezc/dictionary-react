@@ -1,15 +1,16 @@
 .Meaning .definition {
   font-size: 15px;
+  font-weight: 500;
 }
 .Meaning .example {
-  font-weight: 250;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 15px;
   font-style: italic;
   padding: 5px 0px;
 }
 
 .Meaning h4 {
-  font-weight: 400;
+  font-weight: 500;
   text-align: right;
 }
 .Meaning .part {
@@ -17,7 +18,7 @@
   padding-top: 8px;
 }
 .Meaning .vertical {
-  border-left: 1px solid black;
+  border-left: 0.01em solid black;
 }
 
 .Meaning .definitions {
