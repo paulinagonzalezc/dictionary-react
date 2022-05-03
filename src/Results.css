@@ -2,3 +2,7 @@
   font-size: 60px;
   font-weight: 200;
 }
+
+.Results .horizontal {
+  border-bottom: 1px solid black;
+}

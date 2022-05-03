@@ -48,11 +48,12 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="row justify-content-end">
-          <form className="col-4" onSubmit={handleSubmit}>
+          <form className="col-3" onSubmit={handleSubmit}>
             <input onChange={handleKeyword} type="text" placeholder="Search" />
           </form>
         </div>
         <Results results={results} />
+        <br></br>
         <Photos photos={photos} />
       </div>
     );

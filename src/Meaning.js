@@ -4,12 +4,13 @@ import "./Meaning.css";
 
 export default function Meaning(props) {
   return (
-    <div className="Meaning">
+    <div className="container Meaning">
       <div className="row">
-        <div className="col-3">
+        <div className="col-3 part">
           <h4>{props.meaning.partOfSpeech}</h4>
         </div>
-        <div className="col-6">
+        <div className="vertical col-1"></div>
+        <div className="col-6 definitions">
           {props.meaning.definitions.map(function (definition, index) {
             return (
               <div key={index}>
