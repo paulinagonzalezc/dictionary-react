@@ -4,13 +4,13 @@
 }
 .Meaning .example {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   font-style: italic;
   padding: 5px 0px;
 }
 
 .Meaning h4 {
-  font-weight: 500;
+  font-weight: 400;
   text-align: right;
 }
 .Meaning .part {

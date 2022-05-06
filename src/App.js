@@ -11,9 +11,18 @@ function App() {
       </div>
 
       <div className="container dictionary">
-        <Dictionary defaultKeyword="ocean" />
+        <Dictionary defaultKeyword="sunrise" />
       </div>
-      <footer>Coded by Paulina</footer>
+      <footer className="reference">
+        <a
+          href="https://github.com/paulinagonzalezc/dictionary-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>
+        <span> by Paulina Gonzalez</span>
+      </footer>
     </div>
   );
 }

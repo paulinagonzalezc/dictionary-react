@@ -9,12 +9,25 @@ body {
 }
 .App header {
   margin-left: 30px;
-  padding-top: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
   color: gray;
 }
 .App footer {
   text-align: center;
   padding: 30px 0;
+  font-size: 12px;
+  color: gray;
+  font-weight: 200;
+}
+a:link {
+  color: lightblue;
+}
+a:visited {
+  color: #b0c9a6;
+}
+a:hover {
+  color: darkolivegreen;
 }
 
 .App .dictionary {
@@ -22,6 +35,6 @@ body {
   max-width: 970px;
   margin: 0 auto;
   border: 1px solid whitesmoke;
-  padding: 25px;
+  padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
