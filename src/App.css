@@ -1,10 +1,15 @@
 .App {
   font-family: "Raleway", sans-serif;
 }
+body {
+  background-image: url("./background4.png");
+  background-size: cover;
 
+  background-attachment: fixed;
+}
 .App header {
-  margin: 0px 30px;
-  padding-top: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
   color: gray;
 }
 .App footer {
@@ -13,10 +18,10 @@
 }
 
 .App .dictionary {
-  background-color: white;
-  max-width: 980px;
+  background-color: whitesmoke;
+  max-width: 970px;
   margin: 0 auto;
   border: 1px solid whitesmoke;
   padding: 25px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
