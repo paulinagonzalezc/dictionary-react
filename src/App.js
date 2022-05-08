@@ -11,7 +11,7 @@ function App() {
       </div>
 
       <div className="container dictionary">
-        <Dictionary defaultKeyword="sunrise" />
+        <Dictionary defaultKeyword="sunset" />
       </div>
       <footer className="reference">
         <a
