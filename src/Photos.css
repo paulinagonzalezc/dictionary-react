@@ -7,6 +7,11 @@
   text-align: center;
 }
 
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
 img:hover {
   transform: scale(1.1);
 }
